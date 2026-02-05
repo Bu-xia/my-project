@@ -1,0 +1,13 @@
+package com.market.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.market.entity.Booth;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 摊位Mapper接口
+ */
+@Mapper
+public interface BoothMapper extends BaseMapper<Booth> {
+}
+
